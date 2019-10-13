@@ -6,7 +6,7 @@ Resources:
     Type: 'AWS::Serverless::Function'
     Properties:
       Handler: lambda_function.lambda_handler
-      Runtime: Go1.x
+      Runtime: Go 1.x
       CodeUri: ./
       Description: 'Lambda function for CD Demo'
       MemorySize: 128
