@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: lambda_function.lambda_handler
       Runtime: Go 1.x
-      CodeUri: ./
+      CodeUri: .
       Description: 'Lambda function for CD Demo'
       MemorySize: 128
       Timeout: 30
